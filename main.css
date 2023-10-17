@@ -152,5 +152,5 @@ main {
 }
 
 .task .action .delete {
-    color: crimson;
+    color: rgb'(180, 102, 255)';
 }
