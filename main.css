@@ -1,8 +1,8 @@
 :root {
-    --dark: #374151;
-    --darker: #1F2937;
+    --dark: #131f34;
+    --darker: #445975;
     --darkest: #111827;
-    --gray: #6B7280;
+    --gray: #607ab0;
     --light: #eee;
     --pink: #EC4899;
     --purple: #8B5Cf6;
@@ -147,10 +147,9 @@ main {
 
 .task .actions .edit {
     background-image: linear-gradient(to right, var(--pink), var(--purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .task .action .delete {
-    color: crimson;
-}
+    color: crimson}

@@ -4,14 +4,14 @@
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Task List 2023</title>
+        <title>My To-Do</title>
 
         <link rel="stylesheet" href="main.css" />
     </head>
     <body>
 
         <header>
-            <h1>Task List 2023</h1>
+            <h1>My To-Do</h1>
             <form id="new-task-form">
                 <input
                    type="text"
@@ -31,9 +31,24 @@
 
                 <div id="tasks">
 
-                </div>
+                    <div class="task">
+                        <div class="content">
+                            <input
+                            type="text"
+                            class="text"
+                            value="My task"
+                            readonly
+                            />
+                        </div>
+                        <div class="actions">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </div>
+                    </div>
+                        
+                </div>    
             </section>
-
+        
         </main>
 
         <script src="main.js"></script>
